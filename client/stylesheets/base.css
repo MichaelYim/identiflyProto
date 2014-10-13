@@ -1,0 +1,47 @@
+body .header-title {
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+	background-color:rgba(0, 0, 0, 0.9);
+	color:white;
+}
+
+.icon-dropdown {
+  /*height:30%;*/
+	padding:0;
+}
+
+.icon-dropdown:hover {
+	background-color: #EAEAEA;
+
+}
+
+.profileButton:hover { 
+  border-color:#428bca;
+}
+
+.profileButton:hover h4 {
+	font-weight:900;
+}
+
+.profileButton h4{
+	font-weight:700;
+}
+
+.profileBar{
+	margin-top:1vh;
+	display:inline;
+	background-color:black;
+	
+	cursor: pointer; cursor: hand; 
+}
+
+.small-profile-pic{
+	height:43px;
+	margin-right:0;
+}

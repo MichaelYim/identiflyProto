@@ -2,6 +2,10 @@ body .header-title {
 	font-family: 'Ropa Sans', sans-serif;
 }
 
+body .header-title:hover {
+	cursor: pointer; cursor: hand; 
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -12,12 +16,12 @@ body {
 }
 
 .icon-dropdown {
-  /*height:30%;*/
 	padding:0;
+	background-color:white;
 }
 
 .icon-dropdown:hover {
-	background-color: #EAEAEA;
+	/*background-color: rgb(204, 229, 251);*/
 
 }
 
@@ -36,7 +40,7 @@ body {
 .profileBar{
 	margin-top:1vh;
 	display:inline;
-	background-color:black;
+	background-color:white;
 	
 	cursor: pointer; cursor: hand; 
 }

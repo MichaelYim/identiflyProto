@@ -12,3 +12,6 @@ Template.search.events "keyup .search-input": (e) ->
 		$(".search-dropdown").addClass("hide")
 	else
 		$(".search-dropdown").removeClass("hide")
+
+Template.search.events "click .search-first-option": (e) ->
+	Router.go("company_profile")

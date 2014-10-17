@@ -7,8 +7,8 @@ Router.map ->
   @route "search",
     path: "/"
 
-  # @route "mapView",
-  #   path: "map-view"
+  @route "company_profile",
+    path: "company-profile"
 
   # @route "listView",
   #   path: "list-view"

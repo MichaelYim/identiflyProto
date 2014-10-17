@@ -1,0 +1,32 @@
+body {
+  background:#f6f6f6;
+
+}
+
+.company-border-container {
+ margin:6vh;
+
+}
+
+.company-border-container h1{
+	color:#463B3B;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.profile-white-box {
+	background-color:white;
+	padding:2.5vh;
+	border-style: solid;
+  border-color: #D7D7D7;
+	border-width:1px;
+
+}
+
+.profile-white-box li {
+	list-style: none;
+	color:#6F6B6B;
+	font-family: 'Open Sans', sans-serif;
+	font-size:15px;
+	
+}

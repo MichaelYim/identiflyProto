@@ -1,3 +1,8 @@
+.no-pad-margin {
+	margin: 0;
+	padding: 0;
+}
+
 body .header-title {
 	font-family: 'Ropa Sans', sans-serif;
 }

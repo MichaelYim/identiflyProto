@@ -4,7 +4,9 @@ body {
 }
 
 .company-border-container {
- margin:6vh;
+	margin:6vh;
+	color:#60616D;
+	font-family:font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -16,17 +18,47 @@ body {
 
 .profile-white-box {
 	background-color:white;
-	padding:2.5vh;
+	padding:5px;
 	border-style: solid;
   border-color: #D7D7D7;
 	border-width:1px;
 
 }
+.profile-sidebar {
+	
+}
+
+
+.profile-white-box ul {
+	padding: 0 20px;
+}
 
 .profile-white-box li {
 	list-style: none;
-	color:#6F6B6B;
+	color:#60616D;
 	font-family: 'Open Sans', sans-serif;
-	font-size:15px;
-	
+	font-size:16px;
+	border-top:1px solid;
+  border-color: #D7D7D7;
+  padding-top:16px;
+  padding-bottom:16px;
+  line-height:16px;
+}
+
+.field {
+	color:#60616D;
+}
+
+.answer {
+	color: rgb(243, 150, 54);
+}
+
+.profile-image {
+	width:90%;
+	height:auto;
+	max-width:349px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
 }

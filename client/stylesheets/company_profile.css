@@ -24,10 +24,6 @@ body {
 	border-width:1px;
 
 }
-.profile-sidebar {
-	
-}
-
 
 .profile-white-box ul {
 	padding: 0 20px;
@@ -62,3 +58,23 @@ body {
 	margin-right:auto;
 
 }
+
+/*Sidebar CSS*/
+.profile-sidebar {
+	background:rgb(187, 195, 221);
+	min-height:100vh;
+	margin-top:44px;
+	max-width:279px;
+}
+
+.profile-sidebar ul {
+  margin-left:-9%;
+}
+
+.profile-sidebar li {
+	list-style:none;
+	font-size:23px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+

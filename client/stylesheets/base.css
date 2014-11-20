@@ -1,3 +1,8 @@
+ul {
+	list-style-type: none;
+	padding-left:0px;
+}
+
 .no-pad-margin {
 	margin: 0;
 	padding: 0;

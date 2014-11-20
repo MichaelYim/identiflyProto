@@ -10,8 +10,8 @@ Router.map ->
   @route "company_profile",
     path: "company-profile"
 
-  # @route "listView",
-  #   path: "list-view"
+  @route "compatibility",
+    path: "compatibility"
 
   # @route "dashboard",
   #   path: "dashboard"

@@ -1,5 +1,5 @@
 .outer-container {
-    background:red;
+    /*background:red;*/
     min-height:900px;
     min-width:650px;
     margin-left:225px;
@@ -9,11 +9,11 @@
 .sidebar {
 	height:400px;
 	width:200px;
-	background:white;
+/*	background:white;
 	border:solid 1px #cccccc;
 	padding-top:5px;
 	float:left;
-	margin-left:10px;
+	margin-left:10px;*/
 	position:fixed;
 	z-index:301;
 }
@@ -23,3 +23,7 @@
 	cursor: pointer; 
 	cursor: hand;
 }
+
+.sidebar .list-group-item:hover {
+	background-color:#F0F0F0;
+}	

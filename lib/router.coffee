@@ -10,8 +10,14 @@ Router.map ->
   @route "company_profile",
     path: "company-profile"
 
-  @route "compatibility",
-    path: "compatibility"
+  @route "capability",
+    path: "capability"
+
+  @route "reputation",
+    path: "reputation"
+
+  @route "credit",
+    path: "credit"
 
   # @route "dashboard",
   #   path: "dashboard"

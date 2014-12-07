@@ -1,4 +1,7 @@
 Template.sidebar.events
+#   "click .sidebar-button": (e) ->
+#     Session.set "current-tab", $(e.target).attr("value")
+
 	"click .business-button": ->
 		Router.go("company_profile")
 

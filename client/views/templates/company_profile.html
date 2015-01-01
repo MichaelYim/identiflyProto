@@ -1,148 +1,166 @@
 <template name="companyProfile">
 		<br><br><br><br>
-    {{> sidebar}}
-    <div class="container outer-container panel panel-default col-sm-8">
-    	<h1 class="current-tab">Business</h1>
-			<div>
-<!-- 				{{#each info}}
-				<li class="info-unit"><div class="col-sm-3">{{title}}</div><div class="col-sm-9">{{{content}}}</div></li>
-				{{/each}} -->
-				<div class="info-unit"><div class="col-sm-3">Business Description</div>
-					<div class="col-sm-9">
-						<p>BoJuice is a small Hong Kong based apple juice company. Renowned for our commitment to quality, we strive to make our juice from the best quality and pesticide free apples from the best regions. Our juice is produced near the small orchards in Japan and the US, and bottled in hong Kong.
-						</p>
-						<p>We are a family business in our 2nd generation and have been working hard to modernize and increase capacity, while maintaining the same recipe and quality our founder used many years ago. We are quickly expanding and sell our juice in 39 popular grocery stores, cafes and restaurants in Hong Kong. We stand firm in our promised of high quality products and service to our partners and are constantly looking looking to develop lasting relationships with new distributors.
-						</p>
-					</div>
-				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">Contact Information</div>
-					<div class="col-sm-9">
-						<span class="list-heading">Office</span>
-						<ul>
-							<li>Listed Location: Hong Kong, China</li>
-							<li>BoJuice Limited</li>
-							<li>+852 2888 8888</li>
-							<li>123 Example Street</li>
-							<li>Hong Kong, China</li>
-						</ul>
+		<div class="row">
+			<div class="col-sm-2">
+	    	{{> sidebar}}
+	    </div>
 
-						<ul>
-							<span class="list-heading">Sales</span>
-							<li>Listed location: East Asia</li>
-							<li>John Doe</li>
-							<li>+852 2888 8881</li>
-							<li>123 Example Street</li>
-							<li>Hong Kong, China</li>
-						</ul>
-					</div>
-				</div>
+	    <div class="container col-sm-10">
+	    {{> profileheading}}
+		    <div class="container outer-container panel panel-default">
+		    	<h1 class="current-tab">Business</h1>
+					<div>
+						<div class="info-unit">
+							<div class="col-sm-3">Business Description</div>
+							<div class="col-sm-9">
+								<p>BoJuice is a small Hong Kong based apple juice company. Renowned for our commitment to quality, we strive to make our juice from the best quality and pesticide free apples from the best regions. Our juice is produced near the small orchards in Japan and the US, and bottled in hong Kong.
+								</p>
+								<p>We are a family business in our 2nd generation and have been working hard to modernize and increase capacity, while maintaining the same recipe and quality our founder used many years ago. We are quickly expanding and sell our juice in 39 popular grocery stores, cafes and restaurants in Hong Kong. We stand firm in our promised of high quality products and service to our partners and are constantly looking looking to develop lasting relationships with new distributors.
+								</p>
+							</div>
+						</div>
+						<div class="info-unit">
 
-				<div class="info-unit">
-					<div class="col-sm-3">Years Foundead</div>
-					<div class="col-sm-9">
-						<div>Year Foundead: 1954</div>
-						<div>Years in Business: 60</div>
-					</div>
-				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">line of Business </div>
-					<div class="col-sm-9">
-						<div>SIC: 311411</div>
-						<div> This U.S. industry comprises establishments primarily engaged in manufacturing frozen fruits; frozen vegetables; and frozen fruit juices, ades, drinks, cocktail mixes and concentrates.
+							<div class="col-sm-3">Contact Information</div>
+							<div class="col-sm-9">
+								<span class="list-heading">Office</span>
+								<ul>
+									<li>Listed Location: Hong Kong, China</li>
+									<li>BoJuice Limited</li>
+									<li>+852 2888 8888</li>
+									<li>123 Example Street</li>
+									<li>Hong Kong, China</li>
+								</ul>
+
+								<ul>
+									<span class="list-heading">Sales</span>
+									<li>Listed location: East Asia</li>
+									<li>John Doe</li>
+									<li>+852 2888 8881</li>
+									<li>123 Example Street</li>
+									<li>Hong Kong, China</li>
+								</ul>
+							</div>
 						</div>
 
-					</div>
-				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">Team Bio</div>
-					<div class="col-sm-9">
-						<div><em>Aaron Chan (General Management)</em></div>
-						<div>Aaron is the founder and CEO of the business and in charge of general management and development.
+						<div class="info-unit">
+
+							<div class="col-sm-3">Years Foundead</div>
+							<div class="col-sm-9">
+								<div>Year Foundead: 1954</div>
+								<div>Years in Business: 60</div>
+							</div>
 						</div>
-						<div><em>Michael Yam (Chief Juicer)</em></div>
-						<div>Michael is the Head of Product and is in charge of product production, quality and packaging.
+						<div class="info-unit">
+
+							<div class="col-sm-3">line of Business </div>
+							<div class="col-sm-9">
+								<div>SIC: 311411</div>
+								<div> This U.S. industry comprises establishments primarily engaged in manufacturing frozen fruits; frozen vegetables; and frozen fruit juices, ades, drinks, cocktail mixes and concentrates.
+								</div>
+
+							</div>
+						</div>
+						<div class="info-unit">
+
+							<div class="col-sm-3">Team Bio</div>
+							<div class="col-sm-9">
+								<div><em>Aaron Chan (General Management)</em></div>
+								<div>Aaron is the founder and CEO of the business and in charge of general management and development.
+								</div>
+								<div><em>Michael Yam (Chief Juicer)</em></div>
+								<div>Michael is the Head of Product and is in charge of product production, quality and packaging.
+								</div>
+							</div>
+						</div>
+						<div class="info-unit">
+
+							<div class="col-sm-3">Board of Directors</div>
+							<div class="col-sm-9">
+								<div>Person A</div>
+								<div>Person B</div>
+								<div>Person C</div>
+							</div>
+						<div class="info-unit">
+
+							<div class="col-sm-3">Director</div>
+								<div class="col-sm-9">
+									<div>Person A</div>
+									<div>Person B</div>
+									<div>Person C</div>
+								</div>
+							</div>
+						</div>
+						<div class="info-unit">
+
+							<div class="col-sm-3">Shareholders</div>
+							<div class="col-sm-9">
+								<div>Person A</div>
+								<div>Person B</div>
+								<div>Person C</div>
+							</div>
+						</div>
+						<div class="info-unit">
+
+							<div class="col-sm-3">Legal Structure</div>
+							<div class="col-sm-9">
+								<ul>
+									<li>Legal Form: Private Limited Company</li>
+									<li>Business Started as: Old Established Business
+									</li>
+									<li>Date of Registration: January 1st, 1954
+									</li>
+									<li>Registration Number: 434567</li>
+									<li>Registered Office: 11th floor, Centre City Tower, 123 Queens Road Central, Hong Kong
+									</li>
+								</ul>
+								<span class="list-heading">Ultimate Parent Company</span>
+								<ul>
+									<li>Name: BoJuice Ultimate Ltd.</li>
+									<li>Location: UK</li>
+									<li>Line of Business: Holding Co</li>
+									<li>Relationship with BoJuice: Indirectly Holds Majority Shares in Subject</li>
+								</ul>
+
+									<span class="list-heading">Parent Company</span>
+									<ul>
+											<li>Name: BoJuice Parent Ltd.</li>
+											<li>Location: 123 Example Street, Hong Kong, China</li>
+											<li>Line of Business: F&B Production</li>
+									</ul>
+
+									<span class="list-heading">Subsidiary</span>
+									<ul>
+										<li>Name: BoJuice Subsidiary Ltd.</li>
+										<li>Location: 123 Example Street, Hong Kong, China</li>
+										<li>Line of Business: F&B Production</li>
+									</ul>
+
+									<span class="list-heading">Affiliated Companies</span>
+									<ul>
+										<li>Name: BoJuice Affiliated Ltd.</li>
+										<li>Location: Guangzhou, China</li>
+										<li>Line of Business: F&B Distribution</li>
+									</ul>
+
+									<ul>
+										<li>Name: BoApple Ltd.</li>
+										<li>Location: St. Louis, Washington State, USA</li>
+										<li>Line of Business: Agriculture</li>
+									</ul>
+							</div>
+						</div>
+						<div class="info-unit">
+							<div class="col-sm-3">Key Suppliers</div><div class="col-sm-9">value</div></div>
+						<div class="info-unit">
+							<div class="col-sm-3">Markets Served</div><div class="col-sm-9">value</div></div>
+						<div class="info-unit">
+							<div class="col-sm-3">Employee Size and Profile</div><div class="col-sm-9">value</div></div>
+						<div class="info-unit">
+							<div class="col-sm-3">Company history</div><div class="col-sm-9">value</div>
 						</div>
 					</div>
 				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">Board of Directors</div>
-					<div class="col-sm-9">
-						<div>Person A</div>
-						<div>Person B</div>
-						<div>Person C</div>
-					</div>
-				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">Director</div>
-						<div class="col-sm-9">
-							<div>Person A</div>
-							<div>Person B</div>
-							<div>Person C</div>
-						</div>
-					</div>
-				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">Shareholders</div>
-					<div class="col-sm-9">
-						<div>Person A</div>
-						<div>Person B</div>
-						<div>Person C</div>
-					</div>
-				</div>
-				<div class="info-unit">
-					<div class="col-sm-3">Legal Structure</div>
-					<div class="col-sm-9">
-						<ul>
-							<li>Legal Form: Private Limited Company</li>
-							<li>Business Started as: Old Established Business
-							</li>
-							<li>Date of Registration: January 1st, 1954
-							</li>
-							<li>Registration Number: 434567</li>
-							<li>Registered Office: 11th floor, Centre City Tower, 123 Queens Road Central, Hong Kong
-							</li>
-						</ul>
-						<span class="list-heading">Ultimate Parent Company</span>
-						<ul>
-							<li>Name: BoJuice Ultimate Ltd.</li>
-							<li>Location: UK</li>
-							<li>Line of Business: Holding Co</li>
-							<li>Relationship with BoJuice: Indirectly Holds Majority Shares in Subject</li>
-						</ul>
-
-							<span class="list-heading">Parent Company</span>
-							<ul>
-									<li>Name: BoJuice Parent Ltd.</li>
-									<li>Location: 123 Example Street, Hong Kong, China</li>
-									<li>Line of Business: F&B Production</li>
-							</ul>
-
-							<span class="list-heading">Subsidiary</span>
-							<ul>
-								<li>Name: BoJuice Subsidiary Ltd.</li>
-								<li>Location: 123 Example Street, Hong Kong, China</li>
-								<li>Line of Business: F&B Production</li>
-							</ul>
-
-							<span class="list-heading">Affiliated Companies</span>
-							<ul>
-								<li>Name: BoJuice Affiliated Ltd.</li>
-								<li>Location: Guangzhou, China</li>
-								<li>Line of Business: F&B Distribution</li>
-							</ul>
-
-							<ul>
-								<li>Name: BoApple Ltd.</li>
-								<li>Location: St. Louis, Washington State, USA</li>
-								<li>Line of Business: Agriculture</li>
-							</ul>
-					</div>
-				</div>
-				<div class="info-unit"><div class="col-sm-3">Key Suppliers</div><div class="col-sm-9">value</div></div>
-				<div class="info-unit"><div class="col-sm-3">Markets Served</div><div class="col-sm-9">value</div></div>
-				<div class="info-unit"><div class="col-sm-3">Employee Size and Profile</div><div class="col-sm-9">value</div></div>
-				<div class="info-unit"><div class="col-sm-3">Company history</div><div class="col-sm-9">value</div></div>
-
-    </div>
+	    </div>
+	  </div>
 </template>

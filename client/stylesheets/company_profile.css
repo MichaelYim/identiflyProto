@@ -1,10 +1,11 @@
 .outer-container {
     /*background:red;*/
     min-height:900px;
-    min-width:650px;
-    margin-left:225px;
-    margin-right:225px;
+    max-width:1050px;
+    margin-left:auto;
+    margin-right:auto;
     font-size:18px;
+    padding:0;
 }
 
 .current-tab {
@@ -16,37 +17,16 @@
   font-weight:600;
 }
 
+
+
 .info-unit .col-sm-3, .info-unit .col-sm-9 {
   padding-top:15px;
   padding-bottom:15px;
+  border-top: 1px solid #ddd;
+
 }
+
 
 em {
   font-weight:600;
-}
-
-.sidebar {
-	height:400px;
-	width:200px;
-/*	background:white;
-	border:solid 1px #cccccc;
-	padding-top:5px;
-	float:left;
-	margin-left:10px;*/
-	position:fixed;
-	z-index:301;
-}
-
-.sidebar-button:hover{
-	color:#7A7777;
-	cursor: pointer;
-	cursor: hand;
-}
-
-.sidebar .list-group-item:hover {
-	background-color:#F0F0F0;
-}
-
-ul {
-  list-style-type:none;
 }
